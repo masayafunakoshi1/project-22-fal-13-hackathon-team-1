@@ -61,9 +61,7 @@
             alertSuccess[0].classList.remove("hidden");
             setTimeout(() => {
                 alertSuccess[0].classList.add("hidden");
-            }, 3000);
-            // Reset input values
-            clearValues();
+            }, 2000);
         }) 
         .catch(err => {
             // Error handling && alert
@@ -71,7 +69,12 @@
             alertError[0].classList.remove("hidden");
             setTimeout(() => {
                 alertError[0].classList.add("hidden");
-            }, 3000);
+            }, 2000);
+        }).finally(() => {
+            // Reset input values
+            setTimeout(() => {
+                clearValues();        
+            }, 1000);
         })
     }
 
