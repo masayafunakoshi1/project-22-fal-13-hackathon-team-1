@@ -10,15 +10,9 @@ git fetch && git reset origin/main --hard
 source python3-virtualenv/bin/activate
 pip install -r requirements.txt
 
-#ensure SQL DB is working
-sudo systemctl start mysqld.service
-sudo systemctl enable mysqld
+#spin containers down to reduce memory issues
+docker compose -f docker-compose.prod.yml down
 
-#restart myportfolio systemd service
-        #located at /etc/systemd/system/myportfolio.service
-systemctl start myportfolio
-systemctl enable myportfolio
-
-#show status of myportfolio `start`
-systemctl status myportfolio
+#run and build flask server and database on docker
+docker compose -f docker-compose.prod.yml up -d --build
 
