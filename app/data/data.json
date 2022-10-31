@@ -31,38 +31,51 @@
     "experienceData": [
         {"company_img": "static/img/favicon.ico",
         "company_name": "Major League Hacking",
-        "job_title": "Site-Reliability Engineer | Fellow @ MLH",
+        "job_title": "Site Reliability Engineer Fellow @ MLH",
         "position_type": "Fellowship",
         "date_worked": "Sep 2022 - Dec 2022", 
         "location": "United States",
         "description": [
-            "Collaborated with some incredible people, amazing pod leader, and great mentor company.", 
+            "Collaborated with some incredible people, amazing pod leader, and great mentor company, Major League Baseball.", 
             "Worked on a portfolio project, creating a reusable template for the future.", 
             "Used Python, Flask and Jinja, Bootstrap for styling "
             ]
         },
-        {"company_img": "static/img/MLBLogo.png",
-        "company_name": "Major League Baseball",
-        "job_title": "Site-Reliability Engineer",
-        "position_type": "Full-time",
-        "date_worked": "Sep 2022 - Present", 
-        "location": "New York, New York",
+        {"company_img": "static/img/Quarkstars.png",
+        "company_name": "Quark Stars LLC",
+        "job_title": "Frontend Developer",
+        "position_type": "Contract",
+        "date_worked": "May 2022 - Oct 2022", 
+        "location": "United States",
         "description": [
-            "Collaborated with some incredible people, amazing pod leader, and great mentor company.", 
-            "Worked on a portfolio project, creating a reusable template for the future.", 
-            "Used Python, Flask and Jinja, Bootstrap for styling "
+            "Implemented regular improvements to the UI/UX of our web application using 3rd-party software integrations for a customer-facing interface.", 
+            "Developed, tested and maintained features creating reusable/modular code using Typescript, NextJS, ChakraUI, and MongoDB.", 
+            "Given full-responsibility over large tasks (e.g. landing page), reaching out for consistent feedback, and making detailed reports on what I completed using media (video, photos, etc..) to supplement them.",
+            "Worked closely alongside a small dev team, having weekly meetings, 1:1's, and a clear line of communication throughout the development process."
             ]
         },
-        {"company_img": "static/img/logo-Meta.png",
-        "company_name": "Meta",
-        "job_title": "Production Engineer",
-        "position_type": "Full-time",
-        "date_worked": "Jun 2020 - Aug 2022", 
-        "location": "Menlo Park, California",
+        {"company_img": "static/img/VyperProtocol.png",
+        "company_name": "Vyper Labs",
+        "job_title": "Vyper Protocol | Open Source Fellow | @ MLH Summer 2022 Batch",
+        "position_type": "Internship/Fellowship",
+        "date_worked": "Jun 2022 - Aug 2022", 
+        "location": "Remote",
         "description": [
-            "Collaborated with some incredible people, amazing pod leader, and great mentor company.", 
-            "Worked on a portfolio project, creating a reusable template for the future.", 
-            "Used Python, Flask and Jinja, Bootstrap for styling "
+            "Tasked with creating an SDK to improve developer experience, implementing logic with Rust/Anchor and Typescript.", 
+            "Contributed closely with the Project Maintainers to implement changes using well-tested code with Mocha.", 
+            "Facilitated communication with pod-mates(team), maintainers, and the pod-leader(manager) with weekly meetings."
+            ]
+        },
+        {"company_img": "static/img/Solana.png",
+        "company_name": "Solana Labs",
+        "job_title": "Governance UI | Open Source Fellow | @ MLH Spring 2022 Batch",
+        "position_type": "Internship/Fellowship",
+        "date_worked": "Jan 2022 - Apr 2022", 
+        "location": "Remote",
+        "description": [
+            "Took ownership in suggesting improvements to the UI/UX, streamlining the workflow of deployment.", 
+            "Added features to the front end for on-chain spl-governance contract in order to create DAOs.", 
+            "Developed, tested and maintained features using ES6 and Typescript."
             ]
         }
     ],
